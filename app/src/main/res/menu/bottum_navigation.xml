@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        android:title="users"
+        />
+    <item android:id="@+id/nav_fav"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="favorite"
+        />
+    <item android:id="@+id/nav_match"
+        android:icon="@drawable/ic_baseline_sports_basketball_24"
+        android:title="matches"
+        />
+    <item android:id="@+id/nav_live"
+        android:icon="@drawable/ic_baseline_live_tv_24"
+        android:title="lives"
+        />
+    <item android:id="@+id/nav_stats"
+        android:icon="@drawable/ic_baseline_query_stats_24"
+        android:title="stats"
+        />
+</menu>
