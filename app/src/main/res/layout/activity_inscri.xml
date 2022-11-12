@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InscriActivity">
+    tools:context=".InscriActivity"
+    android:background="@drawable/basket">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,50 +21,63 @@
             android:layout_height="wrap_content"
             android:layout_margin="50dp"
             android:textAlignment="center"
+            android:textColor="@color/white"
             android:text="S'inscrire" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/inscrinomuser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="70dp"
             android:ems="10"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+
             android:hint="Nom d'utilisateur"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/inscriemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="70dp"
             android:ems="10"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+
             android:hint="Email"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/inscrimdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="70dp"
             android:ems="10"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+
             android:hint="Mot de passe"
 
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/inscriconfirmemdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="70dp"
             android:ems="10"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+
             android:hint="Confirmer Mot de passe"
 
             android:inputType="textPersonName" />
