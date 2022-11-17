@@ -26,6 +26,7 @@ import java.util.List;
 
 public class MatchFragment extends Fragment {
 
+    RecyclerView recyclerView;
 
     @Nullable
     @Override
