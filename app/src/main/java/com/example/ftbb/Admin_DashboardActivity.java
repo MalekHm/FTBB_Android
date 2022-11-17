@@ -52,10 +52,10 @@ public class Admin_DashboardActivity extends AppCompatActivity {
                 case R.id.nav_home:
                     selectedFragment = new UsersFragment();
                     break;
-                case R.id.nav_live:
-                    selectedFragment = new LiveMatchFragment();
+                case R.id.nav_team:
+                    selectedFragment = new TeamFragment();
                     break;
-                case R.id.nav_rank:
+                case R.id.nav_live:
                     selectedFragment = new LiveMatchFragment();
                     break;
                 case R.id.nav_match:

@@ -4,9 +4,9 @@
         android:icon="@drawable/ic_baseline_supervised_user_circle_24"
         android:title="users"
         />
-    <item android:id="@+id/nav_rank"
+    <item android:id="@+id/nav_team"
         android:icon="@drawable/ic_baseline_star_rate_24"
-        android:title="rang"
+        android:title="Team"/>
         />
     <item android:id="@+id/nav_match"
         android:icon="@drawable/ic_baseline_sports_basketball_24"
